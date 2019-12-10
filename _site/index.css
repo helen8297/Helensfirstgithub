@@ -5,14 +5,33 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
+    padding: 10px;
+    font-family: Optima;
 }
 
 .nav-links {
     display: flex;
     }
 
-li {
+.navbarlist {
     display: inline-block;
     padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
   }
+
+.xmaslist {
+    padding-left: 40px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+        font-family: 'Montserrat', sans-serif;
+}
